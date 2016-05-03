@@ -1,0 +1,6 @@
+{
+    "require": {
+        "components/jquery: 1.9.1 - 2": "dev-master",
+        "components/bootstrap-default": "dev-master"
+    }
+}

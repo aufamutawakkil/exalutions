@@ -1,0 +1,35 @@
+{
+    "db": {
+        "driver": "mysql",
+        "host": "localhost",
+        "username": "root",
+        "password": "",
+        "dbname": "exalutions",
+        "dateFormat": "d M Y",
+        "timeFormat": "H:i",
+        "dateTimeFormat": "d M Y - H:i"
+    },
+    "repo": {
+        "path": "repo"
+    },
+    "app": {
+        "dir": "app",
+        "mode": "development",
+        "host": "http:\/\/localhost",
+        "daemonport": 50554,
+        "url": "http:\/\/localhost\/exalutions"
+    },
+    "notif": {
+        "enable": true,
+        "email": true
+    },
+    "email": {
+        "transport": {
+            "service": "none"
+        }
+    },
+    "ldap": {
+        "enable": false
+    },
+    "devInstallPassword": "$2y$10$u94TAb3EbOqYz7Y8qNb9COzdNllAcsN.5c.Uci8zLj6qZcfSO3wAm"
+}
